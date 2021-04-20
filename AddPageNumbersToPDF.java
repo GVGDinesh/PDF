@@ -33,7 +33,7 @@ public class AddPageNumbersToPDF {
 
 	            // Write aligned text to the specified by parameters point
 	            doc.showTextAligned(new Paragraph(String.format("page %s of %s", i, numberOfPages)),
-	                    559, 806, i, TextAlignment.RIGHT, VerticalAlignment.TOP, 0);
+	                    539, 789, i, TextAlignment.RIGHT, VerticalAlignment.TOP, 0);
 	        }
 
 	        doc.close();
